@@ -17,6 +17,7 @@ In the `backend` directory run `node index.js`
 In the `frontend` directory run `npm start`
 
 Open `http://localhost:3000/` and you will see your frontend running and connected to the backend.
+
 ----
 
 ### How to run locally v1
