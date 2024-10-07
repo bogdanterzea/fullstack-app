@@ -1,0 +1,5 @@
+# Dependencies
+node_modules
+
+# MAC Dependencies
+.DS_Store
