@@ -5,7 +5,8 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:5000')
+    fetch('http://backend-service:5000')
+    // fetch('http://localhost:5000') - use for local running
       .then((res) => res.text())
       .then((data) => setMessage(data))
       .catch((err) => console.error(err));
